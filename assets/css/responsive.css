@@ -1,0 +1,58 @@
+/* Tablet */
+@media all and (max-width:1000px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .container-left {
+        padding: 90px 30px;
+    }
+
+    .container-left h2 {
+        font-size: 22px;
+    }
+
+    .container-left p {
+        font-size: 12px;
+    }
+    .container-right img{
+        height: auto;
+        margin: auto;
+        width: 100%;
+    }
+
+    .btn {
+        display: block;
+    }
+}
+
+/* Smartphone */
+@media all and (max-width:670px){
+    .container {
+        flex-direction: column;
+    }
+
+    .container-left {
+        padding: 0px 30px;
+        order: 2;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .container-left h2 {
+        font-size: 28px;
+    }
+
+    .container-left p {
+        font-size: 14px;
+    }
+
+    .container-right{
+        order: 1;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+    }
+}

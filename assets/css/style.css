@@ -1,0 +1,107 @@
+/* Css Reset */
+*{
+    box-sizing: border-box;
+}
+
+html,body,ul,ol,li,h1,h2,h3,h4,h5,h6,p,div{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+}
+a{
+    text-decoration: none;
+}
+/* Akhir Css Reset */
+
+/* container */
+.container{
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-left{
+    padding: 90px 60px;
+    flex: 40%;
+    background-color: #fff;
+}
+.container-left h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #0F044C;
+}
+.container-left .sub-title{
+    margin: 40px 0;
+}
+.container-left p{
+    font-weight: 300;
+    color: #0F044C;
+    line-height: 30px;
+    font-size: 16px;
+}
+.text-blue{
+    color: #141E61;
+    font-weight: 700;
+}
+.btn{
+    padding: 12px 24px;
+    color: #fff;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 20px;
+    text-align: center;
+    border:none
+}
+.btn:hover{
+    opacity: 1;
+}
+.join{
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #0F044C;
+    background-color: #141E61;
+}
+.join:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+.container-right{
+    background-color: #fff;
+    padding: 10px;
+    flex: 50%;
+}
+
+/* card-container */
+.card-container{
+    padding: 10px 40px;
+}
+.card{
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #f1f1f1;
+    border-radius: 9px;
+    color: #000;
+}
+.active{
+    background-color: #141E61;
+    color: #fff;
+}
+.card h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+.card p{
+    font-size: 11px;
+}
+
+.card:hover{
+    transition: 0.7s ease-in-out;
+    background-color: #141E61;
+    color: #fff;
+    cursor: pointer;
+}
+
+
