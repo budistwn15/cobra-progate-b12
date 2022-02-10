@@ -15,8 +15,8 @@ Cobra dibuat dengan menggunakan:
 ## Contributing
 
 1. Budi Setiawan 
-Github : 
-Linkedin : 
+Github : https://github.com/budistwn15
+Linkedin : https://www.linkedin.com/in/budi-setiawan15/
 2. Indra Hermawan
 Github : 
 Linkedin :
